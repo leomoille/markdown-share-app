@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/markdown-share-app/static/css/main.5f361e03.chunk.css",
+    "main.js": "/markdown-share-app/static/js/main.290bf519.chunk.js",
+    "main.js.map": "/markdown-share-app/static/js/main.290bf519.chunk.js.map",
+    "runtime-main.js": "/markdown-share-app/static/js/runtime-main.1064965f.js",
+    "runtime-main.js.map": "/markdown-share-app/static/js/runtime-main.1064965f.js.map",
+    "static/js/2.3a8b9a91.chunk.js": "/markdown-share-app/static/js/2.3a8b9a91.chunk.js",
+    "static/js/2.3a8b9a91.chunk.js.map": "/markdown-share-app/static/js/2.3a8b9a91.chunk.js.map",
+    "index.html": "/markdown-share-app/index.html",
+    "precache-manifest.c453a927ba8106cb5d9a4deceb232127.js": "/markdown-share-app/precache-manifest.c453a927ba8106cb5d9a4deceb232127.js",
+    "service-worker.js": "/markdown-share-app/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/markdown-share-app/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.3a8b9a91.chunk.js.LICENSE.txt": "/markdown-share-app/static/js/2.3a8b9a91.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1064965f.js",
+    "static/js/2.3a8b9a91.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.290bf519.chunk.js"
+  ]
+}
