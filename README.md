@@ -6,6 +6,11 @@ Welcome to the GitHub repositorie of __MarkdownShare__.
 Feel free to share your pull request !
 <br>
 <br>
+MarkdownShare is an app for sharing text written in markdown. You get a link once your text is written to share it with the rest of the world!  
+
+[See project here!](https://leomoille.github.io/markdown-share-app/)
+<br>
+<br>
 
 ----
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
