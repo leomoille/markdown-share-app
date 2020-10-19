@@ -1,8 +1,5 @@
 {
   "name": "markdown-share-app",
-  "homepage": "https://leomoille.github.io/markdown-share-app",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
