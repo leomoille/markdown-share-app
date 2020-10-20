@@ -1,5 +1,5 @@
 # MarkdownShare
-## An app to share markdown with te world !
+## An app to share markdown with the world !
 ![CI/CD](https://github.com/leomoille/markdown-share-app/workflows/CI/CD/badge.svg) [![codecov](https://codecov.io/gh/leomoille/markdown-share-app/branch/master/graph/badge.svg)](https://codecov.io/gh/leomoille/markdown-share-app) [![Codecov](https://img.shields.io/codecov/c/github/leomoille/markdown-share-app)](https://codecov.io/gh/leomoille/markdown-share-app) ![License](https://img.shields.io/github/license/leomoille/markdown-share-app) 
 
 Welcome to the GitHub repositorie of __MarkdownShare__.  
