@@ -1,13 +1,30 @@
+import 'bootstrap/dist/css/bootstrap.min.css'
 import React from 'react'
 import ReactDOM from 'react-dom'
-import 'bootstrap/dist/css/bootstrap.min.css'
-import './index.css'
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import App from './App'
+import Home from './components/Home'
+import Navbar from './components/Navbar'
+import NoMatch from './components/NoMatch'
+import SharedMarkdown from './components/SharedMarkdown'
+import './index.css'
 import * as serviceWorker from './serviceWorker'
+
+const Root = () => (
+  <BrowserRouter>
+    <Navbar/>
+    <Switch>
+      <Route exact path={`${process.env.PUBLIC_URL}/`} component={Home} />
+      <Route path={`${process.env.PUBLIC_URL}/editor`} component={App} />
+      <Route path={`${process.env.PUBLIC_URL}/markdown-shared/:file`} component={SharedMarkdown} />
+      <Route component={NoMatch} />
+    </Switch>
+  </BrowserRouter>
+)
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Root/>
   </React.StrictMode>,
   document.getElementById('root')
 )

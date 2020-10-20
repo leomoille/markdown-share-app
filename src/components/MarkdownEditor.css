@@ -1,0 +1,11 @@
+.editorView {
+    margin: 25px 0 25px 0;
+  }
+  
+  .preview {
+    background-color: antiquewhite;
+  }
+  
+  .preview > div {
+    padding: 10px;
+  }
