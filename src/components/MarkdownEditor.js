@@ -1,19 +1,21 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import TextareaAutosize from 'react-textarea-autosize'
 
 function MarkdownEditor (props) {
   return (
-    <div className='container'>
+    <div className='container-fluid'>
       <div className='row'>
-        <div className='col-sm-6'>
-          <textarea
+        <div className='col-sm-6 editor'>
+          <TextareaAutosize
+            style={{ resize: 'none' }}
             onChange={props.handleChange}
             className='form-control'
-            rows='34'
             value={props.text}
-          ></textarea>
+            autoFocus
+          />
         </div>
-        <div className='col-sm-6'>
+        <div className='col-sm-6 mr-auto preview'>
           <div
             dangerouslySetInnerHTML={props.renderText(props.text)}
           ></div>

@@ -41,7 +41,11 @@ class App extends Component {
     return (
       <>
         <Navbar />
-        <MarkdownEditor handleChange={this.handleChange.bind(this)} renderText={this.renderText} text={this.state.text} />
+        <MarkdownEditor
+          handleChange={this.handleChange.bind(this)}
+          renderText={this.renderText}
+          text={this.state.text}
+        />
       </>
     )
   }
