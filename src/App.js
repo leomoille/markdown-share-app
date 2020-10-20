@@ -2,7 +2,6 @@ import marked from 'marked'
 import React, { Component } from 'react'
 import './App.css'
 import MarkdownEditor from './components/MarkdownEditor'
-import Navbar from './components/Navbar'
 import { sampleText } from './sampleText'
 
 class App extends Component {
@@ -39,14 +38,11 @@ class App extends Component {
 
   render () {
     return (
-      <>
-        <Navbar />
-        <MarkdownEditor
-          handleChange={this.handleChange.bind(this)}
-          renderText={this.renderText}
-          text={this.state.text}
-        />
-      </>
+      <MarkdownEditor
+        handleChange={this.handleChange.bind(this)}
+        renderText={this.renderText}
+        text={this.state.text}
+      />
     )
   }
 }

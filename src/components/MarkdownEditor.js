@@ -1,10 +1,11 @@
-import React from 'react'
 import PropTypes from 'prop-types'
+import React from 'react'
 import TextareaAutosize from 'react-textarea-autosize'
+import './MarkdownEditor.css'
 
 function MarkdownEditor (props) {
   return (
-    <div className='container-fluid'>
+    <div className='container-fluid editorView'>
       <div className='row'>
         <div className='col-sm-6 editor'>
           <TextareaAutosize
