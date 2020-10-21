@@ -1,10 +1,12 @@
 {
     "env": {
         "browser": true,
-        "es6": true
+        "es6": true,
+        "jest/globals": true
     },
     "extends": [
         "plugin:react/recommended",
+        "plugin:chai-friendly/recommended",
         "standard"
     ],
     "globals": {
@@ -19,8 +21,19 @@
         "sourceType": "module"
     },
     "plugins": [
-        "react"
+        "react",
+        "chai-friendly"
     ],
     "rules": {
-    }
+        "chai-friendly/no-unused-expressions": 2
+    },
+    "overrides": [
+        {
+            "files": "*.spec.js",
+            "rules": {
+                "no-unused-expressions": "off",
+                "chai-friendly/no-unused-expressions": "error",
+            },
+        }
+    ],
 }
