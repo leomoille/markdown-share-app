@@ -12,7 +12,7 @@ import * as serviceWorker from './serviceWorker'
 
 const Root = () => (
   <BrowserRouter>
-    <Navbar/>
+    <Navbar />
     <Switch>
       <Route exact path={`${process.env.PUBLIC_URL}/`} component={Home} />
       <Route path={`${process.env.PUBLIC_URL}/editor`} component={App} />
@@ -24,7 +24,7 @@ const Root = () => (
 
 ReactDOM.render(
   <React.StrictMode>
-    <Root/>
+    <Root />
   </React.StrictMode>,
   document.getElementById('root')
 )
